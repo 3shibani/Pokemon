@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+   
+  
+}
+body{
+    background-image: url("wp3242002.webp")  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+   
+    display: flex;
+    flex-direction: row;
+    /* background-color: blanchedalmond; */
+    /* border: 4px black solid; */
+    column-gap: 2rem;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    margin-top: 10rem;
+    height: 30rem;
+    box-shadow:5px 5px 10px 15px rgb(118, 116, 116) ;
+    padding-left:5rem ;
+    padding-right:5rem ;
+
+    /*GLASS MORPHISM*/
+
+    background: rgba( 113, 180, 248, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+
+    /*GLASS MORPHISM*/
+
+    /* background: rgba( 153, 201, 250, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px; */
+}
+.about{
+    color: white;
+    /* background-color: blue; */
+    padding: 5rem;
+    padding-bottom: 1rem;
+    /* width: fit-content; */
+   
+}
+.btns{
+    /* background-color: blue; */
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    padding-bottom: 2rem;
+
+      /*GLASS MORPHISM*/
+
+      /* background: rgba( 113, 180, 248, 0.55 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 4.5px );
+      -webkit-backdrop-filter: blur( 4.5px );
+      border-radius: 10px; */
+    
+}
+.prev,.next{
+    background-color: white;
+    color: black;
+    width: fit-content;
+     padding-bottom: 0.5rem; 
+     padding-top: 0.5rem; 
+     padding-left: 1rem; 
+     padding-right: 1rem; 
+     border-radius: 5rem;
+     cursor: pointer;
+}
