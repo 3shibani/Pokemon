@@ -10,6 +10,8 @@ body{
     background-image: url("wp3242002.webp")  ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
 }
 .container{
    
@@ -20,6 +22,7 @@ body{
     column-gap: 2rem;
     width: 70%;
     align-items: center;
+    justify-content: center;
     margin: auto;
     margin-top: 10rem;
     height: 30rem;
@@ -82,4 +85,39 @@ body{
      padding-right: 1rem; 
      border-radius: 5rem;
      cursor: pointer;
+}
+@media screen and (max-width: 1100px){
+    .container{
+       margin: 100px;
+        width: fit-content;
+        height: fit-content;
+       flex-wrap: wrap;
+       padding-top: 5%;
+    }
+    
+    .text{
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .container{
+       padding: 10px;
+       padding-top: 15%;
+    }
+    .img {
+        position: absolute;
+    }
+    .body{
+        background-size: 100%;
+    }
+}
+@media screen  and (max-width:517px){
+    .container{
+        margin: auto;
+        /*width: 80%;*/
+        margin-top: 40%;
+
+    }
+    
 }
