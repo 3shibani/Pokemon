@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PokemonAPI</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -13,15 +18,39 @@
             <h2>POKEMON</h2>
         </div> -->
        <div class="text">
-                <div class="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid magni provident placeat velit! Dolor nulla facere eum quisquam quos adipisci accusamus, architecto molestias sunt voluptate placeat, veniam ipsam consectetur nemo!</div>
+                <div class="about">
+                    <div class="species"><b>Species:</b><span class="species_value"><span></div>
+                    <div class="types"><b>Types:</b><span class="types_value"></span></div>
+                    <div class="abHead">Abilities:</div>
+                    <div class="ability">
+                        <li class="ab1"></li>
+                        <li class="ab2"></li>
+                        <!-- <li class="ab3"></li> -->
+                    </div>
+                    <div class="baseExp"><b>Base Experience:</b><span class="baseExp_value"></span></div>
+                    <div class="mvHead">Moves:</div>
+                    <div class="moves">
+                        <li class="mv1"></li>
+                        <li class="mv2"></li>
+                        <li class="mv3"></li>
+                    </div>
+                    <!-- <h4 class="heldHead">Held Items:</h4>
+                    <div class="heldItems">
+                        <li class="heldItems1"></li>
+                        <li class="heldItems2"></li>
+                    </div> -->
+                    <div class="ht"><b>Height:</b><span class="ht_val"></span></div>
+                    <div class="wt"><b>Weight:</b><span class="wt_val"></span></div>
+
+                </div>
                 <div class="btns">
-                    <button class="prev">PREV</button>
+                    <!-- <button class="prev">PREV</button> -->
                     <button class="next">NEXT</button>
                 </div>
        </div>
          
         <div class="image">
-            <img src="download.jpg" alt="">
+            <img src="download.jpg" alt="" class="img" height="300px" width="300px">
         </div>
        
     </div>
