@@ -13,23 +13,24 @@
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js" defer></script>
 </head>
 <body>
+    <div id="particles-js"></div>
     <div class="container">
         <!-- <div class="heading">
             <h2>POKEMON</h2>
         </div> -->
        <div class="text">
-                <h1 class="name">NAME</h1>
+                <h1 class="name"></h1>
                 <div class="about">
-                    <div class="species"><b>Species:</b><span class="species_value"><span></div>
-                    <div class="types"><b>Types:</b><span class="types_value"></span></div>
-                    <div class="abHead">Abilities:</div>
+                    <div class="species"><b>Species: </b><span class="species_value"><span></div>
+                    <div class="types"><b>Types: </b><span class="types_value"></span></div>
+                    <div class="abHead">Abilities: </div>
                     <div class="ability">
                         <li class="ab1"></li>
                         <li class="ab2"></li>
                         <!-- <li class="ab3"></li> -->
                     </div>
-                    <div class="baseExp"><b>Base Experience:</b><span class="baseExp_value"></span></div>
-                    <div class="mvHead">Moves:</div>
+                    <div class="baseExp"><b>Base Experience: </b><span class="baseExp_value"></span></div>
+                    <div class="mvHead">Moves: </div>
                     <div class="moves">
                         <li class="mv1"></li>
                         <li class="mv2"></li>
@@ -40,8 +41,8 @@
                         <li class="heldItems1"></li>
                         <li class="heldItems2"></li>
                     </div> -->
-                    <div class="ht"><b>Height:</b><span class="ht_val"></span></div>
-                    <div class="wt"><b>Weight:</b><span class="wt_val"></span></div>
+                    <div class="ht"><b>Height: </b><span class="ht_val"></span></div>
+                    <div class="wt"><b>Weight: </b><span class="wt_val"></span></div>
 
                 </div>
                 <div class="btns">
@@ -55,5 +56,7 @@
         </div>
        
     </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

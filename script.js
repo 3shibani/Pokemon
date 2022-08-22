@@ -14,6 +14,7 @@
 //  var heldItems2=document.querySelector('.heldItems2');
  var ht_val=document.querySelector('.ht_val');
  var wt_val=document.querySelector('.wt_val');
+ var pok_name=document.querySelector('.name');
 
  //API FETCH
 
@@ -51,6 +52,7 @@ async function poke(link){
     document.querySelector('.img').src=poke_data.sprites.other.dream_world.front_default;
     ht_val.innerText=poke_data.height;
     wt_val.innerText=poke_data.weight;
+    pok_name.innerText=poke_data.name;
 }
 
 
