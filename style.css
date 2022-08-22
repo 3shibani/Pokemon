@@ -96,6 +96,8 @@ body{
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-left: 15%;
+    
     /* justify-content: space-between; */
     /* background-color: aquamarine; */
     
@@ -126,6 +128,7 @@ body{
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 0rem;
+    margin-right: 20%;
       /*GLASS MORPHISM*/
 
       /*background: rgba( 113, 180, 248, 0.55 );
@@ -135,6 +138,12 @@ body{
       border-radius: 10px;*/
     
 }
+.img{
+    padding-right: 30%;  
+    padding-left: 20%;
+    
+    
+}    
 /* .image{
     height: 400px;
     width: 400px;
@@ -195,23 +204,41 @@ body{
        flex-wrap: wrap;
        padding-top: 5%;
     }
-    
+    .img{
+        align-items: center;
+        justify-content: center;
+    }
     .text{
-        order: 2;
+      
     }
 }
-
+@media screen and (max-width: 1100px){
+    .text{
+        order: 2;
+    }  
+    .btns{
+        margin-bottom: 10%;
+    } 
+}  
+@media screen and (max-width: 965px){
+    .text{
+       order: 2;
+    }
+}
 @media screen and (max-width: 650px){
     .container{
        padding: 10px;
        padding-top: 15%;
     }
-    .img {
-        position: absolute;
-    }
+    .img{ 
+        align-items: center;
+        justify-content: center;
+    }    
     .body{
         background-size: 100%;
     }
+
+
 }
 @media screen  and (max-width:517px){
     .container{
